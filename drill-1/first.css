@@ -1,0 +1,38 @@
+body {
+    background: black;
+}
+
+.poop {
+    display: flex;
+    flex-direction: column;
+
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.columns > div {
+    color: red;
+    background: rgb(214, 214, 214); 
+    position: relative;
+    height: 100vh;
+    width: 20%;
+}
+#inner { 
+    color: rgb(28, 228, 28);
+    background: rgb(243, 243, 243);
+    height: 75vh;
+    left: 0px;
+    width: 80%;
+    position: relative;
+}
+
+.topblock {
+    color: blue;
+    background: rgb(71, 71, 71);
+    position: relative;
+    z-index: 2;
+    height: 100px;
+}

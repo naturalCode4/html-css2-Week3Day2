@@ -1,0 +1,120 @@
+body > div {
+    background-color: blanchedalmond;
+    position: relative;
+    height: 1200px;
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+}
+
+#box1 {
+    background-color: red;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    /* z-index: 2; */
+}
+
+#box2 {
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#box3 {
+    background-color: green;
+    position: sticky;
+    top: 5px;
+}
+
+div article {
+    color: steelblue;
+}
+
+#inline {
+    background-color: aqua;
+}
+
+#inline > div {
+    background-color: blue;
+    display: inline;
+    color: white;
+}
+
+#inline-block {
+    background-color: greenyellow;
+}
+
+#inline-block > div {
+    background-color: green;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+}
+
+#flexbox {
+    background-color: pink;
+    height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#flexbox > div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 5px dotted black;
+}
+
+#baseline-section {
+    background-color: brown;
+    display: flex;
+    align-items: baseline;
+}
+
+#baseline-section > div {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+}
+
+#tall {
+    height: 150px;
+}
+#short {
+    height: 100px;
+}
+#medium {
+    height: 125px;
+}
+
+#content-box {
+    box-sizing: content-box;
+    width: 100px;
+    height: 100px;
+    border: solid blue 10px;
+    padding: 5px;
+    background-color: yellow;
+}
+
+#border-box {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: solid blue 10px;
+    padding: 5px;
+    background-color: yellow;
+}
+
+footer {
+    background-color: blueviolet;
+    width: 100vw;
+    position: fixed;
+    bottom: 0px;
+}
